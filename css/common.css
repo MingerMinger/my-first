@@ -1,0 +1,109 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../../iconmoon/fonts/icomoon.eot?uffmsp');
+    src:  url('../../iconmoon/fonts/icomoon.eot?uffmsp#iefix') format('embedded-opentype'),
+      url('../../iconmoon/fonts/icomoon.ttf?uffmsp') format('truetype'),
+      url('../../iconmoon/fonts/icomoon.woff?uffmsp') format('woff'),
+      url('../../iconmoon/fonts/icomoon.svg?uffmsp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 快捷导航模块 */
+.fl {
+    float: left;
+}
+
+.shortcut ul li {
+    display: inline-block;
+}
+
+.fr {
+    float: right;
+}
+
+.style-red {
+    color: #c81623;
+}
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.shortcut .fr ul li:nth-child(even){
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+.arrow-icon::after{
+    content: '\e94b';
+    font-family: 'icomoon';
+    margin-left: 3px;
+}
+
+/* 头部 */
+
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.log{
+    position: absolute;
+    width: 171px;
+    height: 61px;
+    top: 25px;
+}
+.log a{
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url("../images/logo.png") no-repeat;
+    font-size: 0;
+    /* text-indent: -999px;
+    overflow:hidden; */
+}
+
+.search{
+    position: absolute;
+    top: 25px;
+    left: 346px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid red;
+}
+.search input{
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button{
+    float: right;
+    width: 80px;
+    height: 32px;
+    background-color: red;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hotwords{
+    position: absolute;
+    left: 346px;
+    top: 66px;
+}
+
+.hotwords a{
+   margin: 0 10px;
+}
